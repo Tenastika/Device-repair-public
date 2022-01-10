@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<title>Device repair</title>
+
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="css/fonts/style.css">
+
+		
+		<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css" media="(max-width: 1920px)">
+			
+	</head>
+
+	<body id="body">
+
+		
+		<div class="wrapper">
+			<section class="header" id="header">
+	<div class="container header-container">
+
+		<div class="header__logo">
+		</div>
+		<button class="header__menu-btn"></button>
+		<nav class="header__menu">
+			<a href="#gadgets" class="header__menu-item">Наши услуги</a>
+			<a href="#company" class="header__menu-item">О компании</a>
+			<a href="#reviews" class="header__menu-item">Отзывы</a>
+			<a href="#orders" class="header__menu-item">Выполненные заказы</a>
+			<a href="#contacts" class="header__menu-item">Контакты</a>
+			<div class="header__address">
+			<p class="header__address-text">г. Кишинев, ул. Бэнулеску Бодони, д.33</p>
+			<a href="https://yandex.ru/map-widget/v1/?um=constructor%3A41cbeffbf6505accc8926f8880a6cedd1c7cf5047559506ca00a08d7cdb80233&amp;source=constructor" class="header__address-link" target="_blank">Мы на карте </a>
+			</div>
+		</nav>
+
+		
+
+		<div class="header__phone">
+			<a href="tel:069 82 77 38" class="header__phone-num">069 82 77 38</a>
+			<span> / </span>
+			<a href="tel:079 92 77 38" class="header__phone-num">079 92 77 38</a>  
+		</div>
+
+	</div>
+</section>
+			<section class="main" id="main">
+<div class="main__title-img"></div>
+	<div class="container">
+		<div class="main__title">
+			<div class="main__title-content">
+				<h1>Проблемы <br> с Вашим устройством?</h1>
+				<p>Решаем любые проблемы! <br> Большой склад и опытные мастера</p>
+				<button class="main__title-btn btn open-modal" >Бесплатная консультация</button>
+			</div>
+			
+		</div>
+		<div class="main__sale">
+			<p class="main__sale-percent">50%</p>
+			<div class="main__sale-info">
+				<p class="main__sale-text">скидка на ремонт телефонов, ноутбуков и планшетов до <b>-50%</b></p>
+				<span class="underline"></span>
+	
+				<h4>Конец акции:</h4>
+				<div class="main__sale-timer timer" id ="timer">
+					
+					<div class="timer__days">
+						<div class="timer__days-num">
+							<span id="days"></span>
+						</div>
+						<div class="timer__days-txt">DAYS</div>
+					</div>
+					<div class="timer__hours">
+						<div class="timer__hours-num">
+							<span id="hours"></span>
+						</div>
+						<div class="timer__hours-txt">HOURS</div>
+					</div>
+					<div class="timer__minutes">
+						<div class="timer__minutes-num">
+							<span id="minutes"></span>
+						</div>
+						<div class="timer__minutes-txt">MINUTES</div>
+					</div>
+					<div class="timer__seconds">
+						<div class="timer__seconds-num">
+							<span id="seconds"></span>
+						</div>
+						<div class="timer__seconds-txt">SECONDS</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main__info">
+			<div class="main__info-item">
+				<img src="img/main/1.png" alt="icon">
+				<h4 class="main__info-title">Курьер  по городу</h4>
+				<p class="main__info-text">Выезд курьера Буюканы Чеканы, Рышкановка, центр, Ботаника.</p>
+			</div>
+			<div class="main__info-item">
+			<img src="img/main/2.png" alt="icon">
+				<h4 class="main__info-title">Подменный телефон -  Бесплатно</h4>
+				<p class="main__info-text">Телефон взамен бесплатно, пока ваш в ремонте</p>
+			</div>
+			<div class="main__info-item">
+			<img src="img/main/3.png" alt="icon">
+				<h4 class="main__info-title">Забота о вас</h4>
+				<p class="main__info-text">Незначительные поломки -
+делаем бесплатно.</p>
+			</div>
+		</div>
+		
+	</div>
+</section>
+			<section class="gadgets" id="gadgets">
+	
+	<div class="container">
+		<div class="gadgets__content">
+			<div class="gadgets__title">
+				<h2>Мы работаем <br>c устройствами:</h2>
+			</div>
+			<div class="gadgets__card">
+				<img src="img/gadgets/apple.png" alt="gadget">
+				<h4>Apple</h4>
+				<button></button>
+			</div>
+			<div class="gadgets__card">
+				<img src="img/gadgets/android.png" alt="gadget">
+				<h4>Android</h4>
+				<button></button>
+			</div>
+			<div class="gadgets__card">
+				<img src="img/gadgets/gadgets.png" alt="gadget">
+				<h4>Гаджетами</h4>
+				<button></button>
+			</div>
+			<div class="gadgets__card">
+				<img src="img/gadgets/notebook.png" alt="gadget">
+				<h4>Ноутбуками</h4>
+				<button></button>
+			</div>
+			<div class="gadgets__card">
+				<img src="img/gadgets/monoblock.png" alt="gadget">
+				<h4>Моноблоками и PC</h4>
+				<button></button>
+			</div>
+			<div class="gadgets__card">
+				<img src="img/gadgets/other.png" alt="gadget">
+				<h4>Другими устройствами</h4>
+				<button></button>
+			</div>
+		</div>
+
+
+	</div>
+</section>
+			<section class="company" id="company">
+	<div class="container">
+		<div class="company__content">
+			<div class="company__info">
+				<h2>О компании Arron</h2>
+				<p>Узнайте о нашей компании больше из видео за 1 минуту.</p>
+				<a class="btn" href="https://www.youtube.com/watch?v=RK1K2bCg4J8" target="_blank"><span>Смотреть</span></a>
+			</div>
+			<ul class="company__list">
+				<li class="company__list-item">
+					<img src="img/company/car.png" alt="icon">
+					<h4>Выезжаем в любую точку Кишинева</h4>
+					<p>Выезд курьера Буюканы Чеканы, Рышкановка, центр, Ботаника.</p>
+				</li>
+				<li class="company__list-item">
+					<img src="img/company/time.png" alt="icon">
+					<h4>Работы от 30 минут</h4>
+					<p>Время работы или настройки занимает от 30 минут до несколько часов.</p>
+				</li>
+				<li class="company__list-item">
+					<img src="img/company/card.png" alt="icon">
+					<h4>Удобный способ оплаты</h4>
+					<p>Оплата наличными или по перечеслению компаниям.</p>
+				</li>
+				<li class="company__list-item">
+					<img src="img/company/sign.png" alt="icon">
+					<h4>Гарантия на все выполненые услуги</h4>
+					<p>Запчасти, фотографии и сообщения под Вашим контролем. После работ инженер отдаст Вам старые запчасти.</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="company__reviews" id="reviews">
+			<h3>Отзывы счастливых клиентов</h3>
+			<div class="swiper-company swiper">
+				<div class="swiper-btns">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+  
+				<div class="swiper-wrapper">
+			
+					<div class="swiper-slide">
+					<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="swiper-slide">
+					<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="swiper-slide">
+				<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="swiper-slide">
+				<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="swiper-slide">
+				<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					
+		
+				</div>
+  
+  			<div class="swiper-pagination"></div>
+
+			</div>
+		</div>
+</section>
+			<section class="orders" id="orders">
+	<div class="container">
+		<div class="orders__slider">
+			<h3>Выполненные заказы</h3>
+			<div class="swiper-orders swiper">
+
+				<div class="swiper-btns">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+  
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/orders/1.jpg" alt="foto">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/orders/2.jpg" alt="foto">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/orders/3.jpg" alt="foto">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/orders/1.jpg" alt="foto">
+					</div>
+				</div>
+  
+  			<div class="swiper-pagination"></div>
+
+			</div>
+		</div>
+
+		<div class="orders__content">
+			<div class="orders__content-info">
+				<h3>Что делать если ноутбук или телефон медлено работает</h3>
+				<p>Получите чек лист - Что делать, если ноутбук или телефон грузится</p>
+				<button class="btn">Получить чек лист</button>
+			</div>
+
+			<div class="orders__services">
+				<h3>наши услуги</h3>
+				<div class="orders__servies-items">
+					<ul class="orders__servies-list">
+						<li class="orders__servies-item">ремонт ноутбуков</li>
+						<li class="orders__servies-item">ремонт смартфонов</li>
+						<li class="orders__servies-item">заправка и ремонт картриджей</li>
+						<li class="orders__servies-item">установка СНПЧ</li>
+						<li class="orders__servies-item">ремонт компьютеров</li>
+						<li class="orders__servies-item">ремонт моноблоков</li>
+						<li class="orders__servies-item">ремонт планшетов</li> 
+					</ul>
+					<ul class="orders__servies-list">
+					                            
+						<li class="orders__servies-item">ремонт КПК</li>
+						<li class="orders__servies-item">ремонт мониторов</li>
+						<li class="orders__servies-item">ремонт принтеров</li>
+						<li class="orders__servies-item">ремонт роутеров</li>
+						<li class="orders__servies-item">восстановление жестких дисков</li>
+						<li class="orders__servies-item">компьютерная помощь и IT аутсорсинги др. </li>
+					</ul>
+					
+				</div>
+				<button class="btn-consultation btn open-modal">Бесплатная консультация</button>
+			</div>
+		</div>
+	</div> 
+
+</section>
+			<section class="presents" id="presents">
+	<div class="container">
+
+		<h2>На каждый ремонт гарантировано подарок на ваш выбор :</h2>
+
+		<div class="swiper-presents swiper">
+
+			<div class="swiper-btns">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+			<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="presents__card">
+						<div class="presents__card-img">
+							<img src="img/presents/case.png" alt="present">
+						</div>
+						<h4>Чехлы</h4>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="presents__card">
+						<div class="presents__card-img">
+							<img src="img/presents/glass.png" alt="present">
+						</div>
+						<h4>Защитные стёкла</h4>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="presents__card">
+							<div class="presents__card-img">
+								<img src="img/presents/cable.png" alt="present">
+							</div>
+							<h4>Кабели</h4>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="presents__card">
+						<div class="presents__card-img">
+							<img src="img/presents/holder.png" alt="present">
+						</div>
+						<h4>Car holder</h4>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="presents__card">
+						<div class="presents__card-img">
+							<img src="img/presents/charger.png" alt="present">
+						</div>
+						<h4>Зарядки</h4>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="presents__card">
+						<div class="presents__card-img">
+							<img src="img/presents/headphones.png" alt="present">
+						</div>
+						<h4>Наушники</h4>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="presents__card">
+						<div class="presents__card-img">
+							<img src="img/presents/memory.png" alt="present">
+						</div>
+						<h4>Другие аксессуары</h4>
+					</div>
+				</div>
+					
+			</div>
+
+			<div class="swiper-pagination"></div>
+
+		</div>
+
+	</div>
+</section>
+			<section class="advantages" id="advantages">
+	<div class="container">
+		<p class="advantages__title">
+		В нашей компании работают лучшие специалисты, которые прекрасно разбираются в современных технологиях и имеют более 3-х лет опыта работы.
+		</p>
+		<div class="advantages__content">
+			<div class="advantages__content-text">
+				<p>За счет этого мы гарантируем устранение любых неполадок и предоставляем гарантию на все выполненные работы.</p>
+				<p>Мы поможем не только восстановить работоспособность техники, но и подскажем, как избежать возникновения подобных поломок в будущем.</p>
+				<p>Квалифицированная консультация специалиста поможет безопасно пользоваться компьютером. В нашем штате работают опытные специалисты.</p>
+			</div>
+			<div class="swiper-advantages swiper">
+				<div class="swiper-btns">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide">
+						<img src="img/advantages/img.png" alt="foto">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/advantages/img.png" alt="foto">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/advantages/img.png" alt="foto">
+					</div>
+					
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			
+		</div>
+		<div class="advantages__block-form">
+
+			<div class="advantages__block-title">
+				<div class="advantages__block-sale">
+					50%
+				</div>
+				<h3>Записаться на диагностику в <span>удобное</span> вам время</h3>
+			</div>
+			<form action="" class="advantages__form">
+				<input type="text" class="advantages__form-date" placeholder="День">
+				<input type="text" class="advantages__form-time" placeholder="Время">
+				<input type="text" class="advantages__form-tel" placeholder="Телефон">
+				<button type="submit" class="advantages__form-btn btn">Записаться</button>
+			</form>
+		</div>
+
+	</div>
+</section>
+			<section class="questions" id="questions">
+	<div class="container">
+	<h3>FAQ: Часто задаваемые вопросы</h3>
+		<div data-spollers class="block ">
+			<div  class="block__item _init">
+				<button data-spoller class="block__title" type="button">
+					<h4>Вопрос 1</h4>
+				</button>
+				<div class="block__text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolore suscipit quo pariatur eveniet enim, debitis repudiandae similique voluptatem in, iure ut! Quisquam, quae porro saepe soluta eum deserunt? Illum!
+				</div>
+			</div>
+			<div  class="block__item">
+				<button data-spoller class="block__title" type="button">
+					<h4>Вопрос 2</h4>
+				</button>
+				<div class="block__text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolore suscipit quo pariatur eveniet enim, debitis repudiandae similique voluptatem in, iure ut! Quisquam, quae porro saepe soluta eum deserunt? Illum!
+				</div>
+			</div>
+			<div  class="block__item">
+				<button data-spoller class="block__title" type="button">
+					<h4>Вопрос 3</h4>
+				</button>
+				<div class="block__text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolore suscipit quo pariatur eveniet enim, debitis repudiandae similique voluptatem in, iure ut! Quisquam, quae porro saepe soluta eum deserunt? Illum!
+				</div>
+			</div>
+			<div  class="block__item">
+				<button data-spoller class="block__title" type="button">
+					<h4>Вопрос 4</h4>
+				</button>
+				<div class="block__text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolore suscipit quo pariatur eveniet enim, debitis repudiandae similique voluptatem in, iure ut! Quisquam, quae porro saepe soluta eum deserunt? Illum!
+				</div>
+			</div>
+			
+			
+		</div>
+
+	</div>
+</section>
+			<section class="contacts" id="contacts">
+	<div class="container">
+		<h3>наши контакты</h3>
+		<div class="swiper-contacts swiper">
+
+			<div class="swiper-btns">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/contacts/img1.png" alt="foto">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/contacts/img.png" alt="foto">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/contacts/img1.png" alt="foto">
+				</div>		
+			</div>
+
+			<div class="swiper-pagination"></div>
+
+		</div>
+		<div class="contacts__info">
+			<div class="contacts__info-links">
+				<div class="contacts__info-tel link">
+					<img src="img/contacts/icon-tel.png" alt="icon">
+					<a href="tel:069 82 77 38">069 82 77 38</a> <span>/</span> <a href="tel:079 92 77 38">079 92 77 38</a>
+				</div>
+				<div class="contacts__info-mail link">
+				<img src="img/contacts/icon-mail.png" alt="icon">
+					<a href="mailto:info@arron.md">info@arron.md</a>
+				</div>
+				<div class="contacts__info-address link">
+				<img src="img/contacts/icon-map.png" alt="icon">
+					<a href="https://yandex.ru/maps/?um=constructor%3A41cbeffbf6505accc8926f8880a6cedd1c7cf5047559506ca00a08d7cdb80233&source=constructorLink" target="_blank">г. Кишинев, ул. Бэнулеску Бодони, д.33</a>
+				</div>
+			</div>
+			<div class="contacts__info-soc">
+				<div class="contacts__info-reiting">
+					<h4>Рейтинг сервиса</h4>
+					<img src="img/contacts/stars.png" alt="stars">
+					<p>4.8/5.0 - 403 голоса</з>
+				</div>
+				<div class="contacts__info-socials">
+					<h4>Мы в соцсетях</h4>
+					 <a href="https://www.instagram.com/" target="_blank">
+						 <img src="img/contacts/inst.png" alt="icon">
+					 </a>
+					 <a href="https://ru-ru.facebook.com/" target="_blank">
+						 <img src="img/contacts/facebook.png" alt="icon">
+					 </a>
+					 <a href="https://www.tiktok.com/" target="_blank">
+						 <img src="img/contacts/tiktok.png" alt="icon">
+					 </a>
+					 <a href="https://www.youtube.com/" target="_blank">
+						 <img src="img/contacts/youtube.png" alt="icon">
+					 </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="contacts__map">
+	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A41cbeffbf6505accc8926f8880a6cedd1c7cf5047559506ca00a08d7cdb80233&amp;source=constructor" width="100%" height="750" frameborder="0"></iframe>
+	</div>
+	
+</section>
+			<section class="modals" id="modals">
+	<div class="container">
+		<div class="modals__bg">
+			<div class="modals__form" >
+				<img src="../img/modals/close.png" alt="close" class="modals__close">
+				<h3>Оставьте заявку на <span>бесплатную</span> консультацию</h3>
+				<form action="" metod="post">
+					<input type="text" placeholder="Имя" name="name">
+					<input type="tel" placeholder="Телефон" name="tel">
+					<input type="submit" class="btn" value="Получить консультацию">
+				</form>
+			</div>	
+		</div>	
+		<!-- <div class="modals__bg">
+			<div class="modals__done">
+				<div class="modals__done-img">
+					<img src="../img/modals/icon.png" alt="icon">
+				</div>
+				<h3>Ваша заявка отправлена</h3>
+				<p>Мы свяжемся с вами в ближайшее время</p>
+			</div>
+		</div> -->
+	</div>
+</section>
+		
+		</div>
+
+		
+		
+
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<script src = "https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+		<script src="libs/fancybox/jquery.fancybox.js"></script>
+
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>
